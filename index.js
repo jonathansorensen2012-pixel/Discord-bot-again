@@ -18,7 +18,7 @@ const {
 
 const fs = require('fs');
 
-const TOKEN = 'MTQ5NTE1NDAzMDYxODM0OTU4OA.GNf0Hw.5AkM6t_XRV0KVF7HgApIf5IFl8oaOXRkQQI7iM';
+const TOKEN = process.env.TOKEN;
 const CLIENT_ID = '1495154030618349588';
 const GUILD_ID = '1488215218667655278';
 
